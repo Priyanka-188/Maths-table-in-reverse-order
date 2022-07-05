@@ -1,0 +1,9 @@
+table = []
+n = float(input("Enter a number : "))
+n1 = int(n)
+for i in range(1,11):
+    value = n1*i
+    table.append(value)
+table.reverse()
+for lisa in table:
+    print(lisa )
