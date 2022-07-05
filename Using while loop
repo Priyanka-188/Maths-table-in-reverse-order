@@ -1,0 +1,7 @@
+n = float(input("Enter a number : "))
+n1 = int(n)
+print(f"The table of {n1} in reveresed order :")
+i=10
+while i>=1 :
+    print (n1*i)
+    i-=1
